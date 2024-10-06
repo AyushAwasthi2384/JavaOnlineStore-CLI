@@ -133,12 +133,7 @@ Before you begin, ensure you have the following installed:
 
 ## Building the Project
 
-1. **Navigate to the Project Directory**:
-   ```bash
-   cd store-management
-
-
-2. **Build the Project**:
+1. **Build the Project**:
    ```bash
    mvn clean install
    ```
