@@ -12,6 +12,7 @@ Welcome to the E-Commerce Store Application! This project is a Java-based consol
 7. [Running the Application](#running-the-application)
 8. [Using the Application](#using-the-application)
 9. [Troubleshooting](#troubleshooting)
+10. [Credits](#credits)
 
 ## Prerequisites
 
