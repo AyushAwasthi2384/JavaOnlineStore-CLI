@@ -87,7 +87,7 @@ public class ProductService {
                     product = new Product();
                     product.setProductId(rs.getInt("product_id"));
                     product.setName(rs.getString("name"));
-                    product.setCategory(rs.getString("category"));
+                    product.setCategory(rs.getString("category")); 
                     product.setPrice(rs.getDouble("price"));
                     product.setStockQuantity(rs.getInt("stock_quantity"));
                 }
