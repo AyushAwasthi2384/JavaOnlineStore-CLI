@@ -74,4 +74,25 @@ public class ProductService {
         }
         return productList;
     }
+
+    public Product getProductById(int productId) throws SQLException {
+        Product product = null;
+        String query = "SELECT * FROM products WHERE product_id = ?";
+
+        try (Connection connection = DatabaseUtility.getConnection();
+                PreparedStatement stmt = connection.prepareStatement(query)) {
+            stmt.setInt(1, productId);
+            try (ResultSet rs = stmt.executeQuery()) {
+                if (rs.next()) {
+                    product = new Product();
+                    product.setProductId(rs.getInt("product_id"));
+                    product.setName(rs.getString("name"));
+                    product.setCategory(rs.getString("category"));
+                    product.setPrice(rs.getDouble("price"));
+                    product.setStockQuantity(rs.getInt("stock_quantity"));
+                }
+            }
+        }
+        return product;
+    }
 }
