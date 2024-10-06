@@ -1,6 +1,6 @@
-# Store Management Application
+# Ecommerce Store Application
 
-Welcome to the Online Store Application! This project is a Java-based console application that allows users to manage products, customers, and orders. This README will guide you step-by-step to set up and run the application on your local machine.
+Welcome to the Ecommerce Store Application! This project is a Java-based console application that allows users to manage products, customers, and orders. This README will guide you step-by-step to set up and run the application on your local machine.
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
