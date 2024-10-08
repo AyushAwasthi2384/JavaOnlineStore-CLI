@@ -1,4 +1,4 @@
-# E-Commerce Store Application
+ # E-Commerce Store Application
 
 Welcome to the E-Commerce Store Application! This project is a Java-based console application that allows users to manage products, customers, and orders. This README will guide you step-by-step to set up and run the application on your local machine.
 
@@ -87,8 +87,8 @@ Before you begin, ensure you have the following installed:
    - Open the MySQL command line or MySQL Workbench.
    - Run the following commands:
      ```sql
-     CREATE DATABASE store_management;
-     USE store_management;
+     CREATE DATABASE javaecom;
+     USE javaecom;
 
      CREATE TABLE customers (
          customer_id INT AUTO_INCREMENT PRIMARY KEY,
