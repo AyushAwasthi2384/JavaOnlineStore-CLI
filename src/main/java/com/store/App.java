@@ -4,6 +4,7 @@ import com.store.models.Customer;
 import com.store.models.Product;
 import com.store.models.Order;
 import com.store.models.OrderItem;
+
 import com.store.services.CustomerService;
 import com.store.services.ProductService;
 import com.store.services.OrderService;
@@ -19,6 +20,7 @@ public class App {
         ProductService productService = new ProductService();
         CustomerService customerService = new CustomerService();
         OrderService orderService = new OrderService();
+
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
